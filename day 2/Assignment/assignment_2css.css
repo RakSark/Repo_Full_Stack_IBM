@@ -68,10 +68,8 @@ body{
     font-weight: bold;
 }
 #lineonly{
-    height: 0px;
-    background: rgb(212, 182, 182);
-    padding: 1px;
     margin-top: 5px;
+    border-top: 2px solid hwb(12 43% 7% / 0.479);
 }
 #indiv-1{
     display: flex;
