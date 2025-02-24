@@ -157,16 +157,34 @@
 // // output: 20
 
 // 14 Fix the following function to work correctly and explain the issues.
-function outer() { 
-    let count = 0; 
-    return function inner() { 
-        count++; 
-        console.log(count); 
-    }; 
-} 
-const counter1 = outer(); 
-counter1(); 
-counter1(); 
-const counter2 = outer(); 
-counter2(); 
-counter2();
+// function outer() { 
+//     let count = 0; 
+//     return function inner() { 
+//         count++; 
+//         console.log(count); 
+//     }; 
+// } 
+// const counter1 = outer();
+// counter1(); 
+// counter1();
+// const counter2 = outer();
+// counter2();
+// counter2();
+
+// Here is the problem with (count) this (let count = 0) written inside the outer function, so the counter1 is not sharing the data with counter 2, on the other hand its just separate the data.
+
+//After fixing this 
+
+// let count = 0;
+// function outer() { 
+//     return function inner() { 
+//         count++; 
+//         console.log(count); 
+//     }; 
+// } 
+// const counter1 = outer();
+// counter1(); 
+// counter1();
+// const counter2 = outer();
+// counter2();
+// counter2();
