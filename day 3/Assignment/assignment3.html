@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="UA-X-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+        <link rel="stylesheet" href="/day 3/Assignment/assignment3.css">
+    </head>
+    <body style="margin:0; padding:0; box-sizing:border-box; display:flex; justify-content:center;">
+        
+        <!--Base-->
+        <div id="base" style="color:white; width:100%; background-color:rgb(96, 92, 97); padding: 0.5rem; box-sizing: border-box;">
+
+            <!--Header-->
+            <header style="background-color: rgb(0, 140, 255); width:100%; max-height: 100%; min-height:50px; margin-top: -6px; position: static; top:0; display:flex; justify-content:center; align-items:center; overflow:hidden">
+
+                <div style="position: relative; width: 99%; display:flex; justify-content:space-between; align-items: center; padding:10px; box-sizing:border-box;">
+
+                    <p style="font-size: larger; margin:0;">Raktim Sarkar - Web Developer</p>
+                    <nav id="nav1" style="margin-right:-5px">
+                        <ul style="display: flex; flex-wrap:wrap; list-style:none; gap: 20px; margin:0px; padding:10px">
+                            <li> <a href="#">Home</a> </li>
+                            <li> <a href="#">About</a> </li>
+                            <li> <a href="#">Skills</a> </li>
+                            <li> <a href="#">Projects</a> </li>
+                            <li> <a href="#">Contact</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!--Main-->
+            <div style=" width: 100%; height:auto; margin-top: 10px; display:flex; flex-direction:column; align-items:center; padding-bottom: 20px; box-sizing: border-box;">
+
+                <!-- Hero Section: -->
+                <section style=" display:flex; justify-content:center; width: 99%; height: auto; margin-top:2px; overflow:hidden; box-sizing:border-box;">
+                    <img style="max-width:100%; width: 255px; height: 300px;" src="/images/Raktim Sarkar Photo.jpg" alt="">
+                </section>
+                
+                <div style=" text-align:center; width: 100%; padding: 10px; margin-top:10px; box-sizing:border-box;">Hello! I am Raktim Sarkar, a passionate Web Developer</div>
+
+                <div style=" width: 99%; box-sizing:border-box; margin-top:10px">
+                    
+                    <!-- About Me Section: -->
+                    <section style="text-align: center;">
+                        <h3>About Me:</h3>
+                        <ul style="list-style: none; ">
+                            <li>
+                                <p style="text-align:left; padding: 10px; max-width:100%">
+                                    I am Raktim Sarkar, a B.Tech Student, currently pursuing Computer Science Engineering.I am also learning about Software-development, Web-development and Web-designing things. I have experience in some programming languages such as Python, C++, Html, Css, JavaScript, and Java little bit. Additionally I have experience in designing and editing application like photoshop, premiere pro, after effects. And I am interested to play outside game like football, also I interested to do play computer video games, game designing, sound designing, design 3d models etc.
+                                </p>
+                            </li> 
+                        </ul>
+                    </section>
+                    
+                    <!-- Skills Section: -->
+                    <section style="text-align:center">
+                        <h3>Skills:</h3>
+                        <ul style="list-style: none;">
+                            <li style="text-align:center;">
+                                HTML, CSS, JAVASCRIPT, PYTHON, C++, JAVA
+                            </li> 
+                        </ul>
+                    </section>
+                    
+                    <!-- Project Section: -->
+                    <section style="text-align:center">
+                        <h3>Projects:</h3>
+                        <table style="width: 100%; border-collapse:collapse; text-align:center;">
+                            <tr>
+                                <th style="border: 2px solid black; padding: 6px">Project Name</th>
+                                <th style="border: 2px solid black; padding: 6px">Description</th>
+                                <th style="border: 2px solid black; padding: 6px">Technologies Used</th>
+                            </tr>
+                            <tr>
+                                <td style="border: 2px solid black; padding: 6px">
+                                    <a id="DEF" href="https://github.com/RakSark/My_Projects/tree/main/Python/tkinter%20projects/data_entry_form" target="_blank">
+                                        <section style="height: 100%; width: 100%; cursor:pointer;">
+                                            <p>Data Entry Form</p>
+                                        </section>
+                                    </a>
+                                </td>
+                                <td style="border: 2px solid black; width:40%; padding: 6px">I just created a test project like data entry form, and made a installation file of this project.So created a complete software.</td>
+                                <td style="border: 2px solid black; padding: 6px">Python, pyexcels</td>
+                            </tr>
+                        </table>
+                    </section>
+                    
+                    <!-- Contact Section: -->
+                    <section style="display:flex; align-items:center; justify-content:center;">
+                        <div style=" display:flex; flex-direction: column; align-items:center; width:300px; margin-top: 2%;">
+                            <form action="test.php" method="post" enctype="multipart/form-data" style="display:flex; flex-direction:column; gap: 10px; width: 100%;">
+                                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%">
+                                    <label for="Full Name" style="white-space: nowarp; margin-right: 5%">Full Name:</label>
+                                    <input type="text" id="Full Name" placeholder="Full Name" minlength="4" maxlength="12" style="flex:1; min-height: 30px; max-height:auto;">
+                                </div>
+
+                                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%">
+                                    <label for="Email" style="white-space: nowarp; margin-right: 5%">Email:</label>
+                                    <input type="text" id="Email" placeholder="Email" minlength="4" maxlength="12" style="flex:1; min-height: 30px; max-height:auto;">
+                                </div>
+
+                                <div style="display: flex; justify-content:space-between; align-items: center; width: 100%">
+                                    <label for="massage" style="white-space:nowrap; margin-right:5%;">Massage:</label>
+                                    <textarea name="massage" id="massage" placeholder="massage" style="max-width: 100%; min-width:50%; min-height: 25px; max-height:auto; flex:1"></textarea>
+                                </div>
+                            </form>
+                            <button style="height: 35px; width: 200px; margin-top: 6%">Submit</button>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <footer style="background-color: rgb(0, 140, 255); display:flex; flex-direction:column; align-items:center; justify-content:center; margin-top:0.5%; max-height: 100%; min-height:50px;">
+                <a href="https://github.com/RakSark/My_Projects" target="_blank">
+                    <div style="display: flex; gap: 10px;">
+                        <div style="height: auto; width: auto; background-color:aliceblue; border-radius: 10px; display:flex; justify-content:center; align-items:center;">
+                            <img id="github" style="height: 30px; width: 30px;" src="/images/github.png" alt="">
+                        </div>
+                    </div>
+                </a>
+                &copy; 2025 Raktim Sarkar. All rights reserved.
+            </footer>
+        </div>
+    </body>
+</html>
