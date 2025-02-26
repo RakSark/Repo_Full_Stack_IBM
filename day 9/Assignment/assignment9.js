@@ -148,7 +148,7 @@
 
 // The output will be: 10 and 15
 
-// 1️3️ Write a function that takes any number of arguments and returns their sum.
+// (1️3️) Write a function that takes any number of arguments and returns their sum.
 
 // function sum(a,b){
 //     return a+b;
@@ -156,7 +156,7 @@
 // console.log(sum(10, 10))
 // // output: 20
 
-// 14 Fix the following function to work correctly and explain the issues.
+// (14) Fix the following function to work correctly and explain the issues.
 // function outer() { 
 //     let count = 0; 
 //     return function inner() { 

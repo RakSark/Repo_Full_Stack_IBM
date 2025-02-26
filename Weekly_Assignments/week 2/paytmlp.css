@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#div1{
+    min-width: 30%;
+    width: 80%;
+    max-width: 95%;
+
+    min-height: 50%;
+    height: 1200px;
+    max-height: 100%;
+    background-color: lightblue;
+}
+
+#header1{
+    background-color: lightgreen;
+}
