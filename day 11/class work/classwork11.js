@@ -5,7 +5,7 @@
 //     class:"BTech",
 //     myFunction:function(){
 
-//         console.log(this);
+//         // console.log(this);
 //         console.log(this.name,this.class);
 //         console.log("I am a method inside object");
 //     },
@@ -23,6 +23,7 @@
 // obj.myFunction();
 
 // obj.newobj.nestedFunction();
+// console.log(obj);
 
 // condition
 // let num1 = 10, num2 = 20;
@@ -85,13 +86,13 @@
 //     num++;
 // }
 
-let arr = [4,33,45,65];
+// let arr = [4,33,45,65];
 
-for(let i=0; i<arr.length; i++){
-    if(arr[i]%2 == 0){
-        console.log("even");
-    }
-    else{
-        console.log("odd");
-    }
-}
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]%2 == 0){
+//         console.log("even");
+//     }
+//     else{
+//         console.log("odd");
+//     }
+// }
