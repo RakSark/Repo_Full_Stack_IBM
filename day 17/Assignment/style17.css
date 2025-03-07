@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+}
+
+.superdiv{
+
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+
+    height: 100%;
+    min-height: auto;
+    max-height: 100%;
+}
+
+header{
+    background-color: rgb(230, 207, 207);
+    /* border: 2px solid black; */
+    margin: px;
+    max-width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+#YT-logo{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+}
+
+#YT-logo>section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-button>button{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.menu-button>button:hover{
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+}
+.menu-button>button:active{
+    background-color: lightgrey;
+
+}
+
+.menu-button>button>img{
+    width: 20px;
+    height: 20px;
+}
+
+
+#YT-logo>.ytlogo-sec>img{
+    width: 95px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#search-bar{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 35%;
+    height: 100%;
+    justify-content: center;
+    gap: 0px;
+}
+
+#search-bar>section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar>.section2>button{
+    border:none;
+    /* background-color: transparent; */
+    align-items: center;
+    width: 60px;
+    height: 70%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#search-bar>.section2>button>img{
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+}
+#search-bar>.section2>button:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.searchbarinput{
+    width: 410px;
+    height: 70%;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 18px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.searchbarinput:focus{
+    width: 450px;
+    border: 1px solid rgb(7, 99, 219);
+    outline-style: unset;
+    background-image: url(./images/search.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;;
+}
+
