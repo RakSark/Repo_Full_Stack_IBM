@@ -7,38 +7,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="style17.css">
 </head>
-<body>
-    <div class="superdiv">
-        <header>
-
-            <div id="YT-logo">
-                <section class="menu-button">
-                    <button>
-                        <img src="./images/Menu Icon.png" alt="">
-                    </button>
+<body dir="ltr" rounded-container>
+    <header>
+        <div id="header-div">
+            <!-- "header-div" column = 1 -->
+            <!-- "menu-and-logo" -->
+            <div id="menu-and-logo">
+                <!-- section-1 -->
+                <section class="section-1">
+                    <img src="./images/Menu Icon.png" alt="">
                 </section>
-                <section class="ytlogo-sec">
-                    <img src="./images/YouTube_logo_dark.png" alt="">
+                <!-- section-2 -->
+                <section class="section-2">
+                    <a title="Youtube home" href="https://www.youtube.com/" target="_blank">
+                        <img src="./images/YouTube_logo_dark.png" alt="">
+                    </a>
+                    <span id="countrylocation">IN</span>
                 </section>
             </div>
-
+            <!-- "header-div" column = 2 -->
+            <!-- "search-bar" -->
             <div id="search-bar">
-                <section class="section">
-                    <input class="searchbarinput" type="search" name="" value="" placeholder="Search">
-                </section>
-                <section class="section2">
-                    <button>
-                        <img src="./images/search.png" alt="">
-                    </button>
-                </section>
+                <div id="search-bar-innerdiv">
+                    <!-- searchinputfild -->
+                    <form action="" id="ytsearchform">
+                        <div id="ytsearchbarinnericon">
+                            <img src="./images/search.png" alt="">
+                        </div>
+                        <input type="text" placeholder="Search" id="searchinput">
+                    </form>
+                    <!-- searchbutton -->
+                    <div id="searchbutton-div">
+                        <button title="Search">
+                            <img src="./images/search.png" alt="">
+                        </button>
+                    </div>
+                    <!-- microphonebox -->
+                    <div id="ytmicicon">
+                        <button>
+                            <img src="./images/Microphone icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
             </div>
+            <!-- "header-div" column = 3 -->
+            <!-- "Create Button, notification, account logo" -->
+             <div id="cna">
+                <div id="cna-innerdiv">
+                    <!-- createicon -->
+                    <div id="createicon">
+                        <button>
+                            <img src="./images/big plus icon.png" alt="">
+                            Create
+                        </button>
+                    </div>
+                    <!-- notificationicon -->
+                    <div id="notificationicon">
+                        <button title="Notification">
+                            <img src="./images/notification-black.png" alt="">
+                        </button>
+                    </div>
+                    <!-- accounticon -->
+                    <div id="accounticon">
+                        <button>
+                            
+                        </button>
+                    </div>
+                </div>
+             </div>
 
-        </header>
-        <main>
-            <div id="div-main1"></div>
-            <div id="div-main2"></div>
-        </main>
-    </div>
+        </div>
+    </header>    
     <script src="script17.js"></script>
 </body>
 </html>
