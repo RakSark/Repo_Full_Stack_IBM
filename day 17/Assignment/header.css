@@ -7,6 +7,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 header{
@@ -16,7 +18,8 @@ header{
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
+    background-color: antiquewhite;
 }
 
 #header-div{
@@ -37,7 +40,6 @@ header{
     display: grid;
     align-items: center;
     grid-template-columns: 55px ;
-
 }
 
 /* <!-- section-1 --> */
@@ -48,14 +50,27 @@ header{
     overflow: hidden;
     width: 40px;
     height: 40px;
-    border-radius: 100px;
-    transition: background-color 50ms ease-in-out;
     grid-area: 1/1/2/2;
 }
-.section-1:hover{
+
+.section-1>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    transition: background-color 50ms ease-in-out;
+    background-color: transparent;
+}
+.section-1>button:hover{
     background-color: lightgray;
 }
-.section-1>img{
+.section-1>button:active{
+    background-color: rgb(233, 232, 232);
+}
+.section-1>button>img{
     width: 20px;
     height: 20px;
     -webkit-user-drag:none;
@@ -84,6 +99,7 @@ header{
     width: 92px;
     height: 20px;
     -webkit-user-drag: none;
+    user-select: none;
     
 }
 .section-2>span{

@@ -1,0 +1,8 @@
+#mainbody{
+    position:absolute;
+    top: 120px;
+    left: 250px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 211, 211);
+}
