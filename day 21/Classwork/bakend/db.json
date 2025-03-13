@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "SVU": [
+    {
+      "id": "1",
+      "text": "nothing"
+    },
+    {
+      "id": "2",
+      "text": "nothing"
+    },
+    {
+      "id": "5f4f",
+      "title": "hello",
+      "views": 0.5105029543471948
+    },
+    {
+      "id": "3830",
+      "title": "npm",
+      "views": 0.5024461400296887
+    },
+    {
+      "id": "452e",
+      "title": "fd",
+      "views": 0.7990807388168495
+    },
+    {
+      "id": "7278",
+      "title": "suv",
+      "views": 0.6018055150241131
+    }
+  ]
+}
