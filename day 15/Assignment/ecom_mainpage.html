@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="ecom_mainpage.css">
+</head>
+<body>
+    <div id="mainheader">
+        <h1>MainPage</h1>
+        <hr style="width: 80%;">
+        <header>
+            <label for="search" class="searchlabel">Search</label>
+            <input id="search" placeholder="Search" type="search">
+            
+            <select name="filteritems" id="filteritems">
+                <option value="-Select-">-Select-</option>
+                <option value="men's clothing">men's clothing</option>
+                <option value="women's clothing">women's clothing</option>
+                <option value="jewelery">jewelery</option>
+                <option value="electronics">electronics</option>
+            </select>
+
+            <nav id="nav1">
+                <ul>
+                    <li title="Home" onclick="homepage()">Home</li>
+                    <li title="About">About</li>
+                    <li title="Cart" onclick="cartPage()">Cart</li>
+                </ul>
+            </nav>
+
+            <select name="themeselect" id="themeselect">
+                <option value="sysdefault">System Default</option>
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+            </select>
+        </header>
+    </div>
+    <div id="product">
+    </div>
+    <script src="ecom_mainpage.js"></script>
+</body>
+</html>
