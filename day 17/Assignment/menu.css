@@ -1,9 +1,8 @@
 #menu{
     width: 250px;
     height: 100%;
-    background-color: lightgray;
+    background-color: white;
     position: fixed;
-    z-index: 2;
     top: 60px;
     display: list-item;
     justify-items: center;

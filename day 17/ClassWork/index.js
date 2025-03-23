@@ -14,7 +14,7 @@ let res = await data.json();
 console.log(data)
 showData(res.items)
 }
-getData();
+
 
 async function showData(){
     arr.forEach(({Snippet}) => {
@@ -24,7 +24,7 @@ async function showData(){
         img.src = Snippet.thumbnails.medium.url;
 
         let title = document.createElement("p")
-        title.innerText = snippet.title
+        title.innerText = Snippet.title
 
         let channel_title = document.createElement("p")
         title.innerText = snippet.channel_title
