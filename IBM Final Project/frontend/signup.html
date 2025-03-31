@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <div class="bluroverlayer"></div>
+    <div id="LogoBox">
+        <img src="./image/Local_Stream.png" alt="">
+    </div>
+    <form id="registerForm">
+        <div id="NameRegister">Sign Up</div>
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <div class="password-container">
+            <input type="password" id="password" placeholder="Password" required />
+            <span class="toggle-ico" id="showPassword" onclick="togglePassword()"><img src="./image/view.png" alt=""></span>
+            <span class="toggle-ico" id="hidePassword" onclick="togglePassword()"><img src="./image/hide.png" alt=""></span>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div>
+            <p>
+                Already have an acconunt?<a href="/login"> Login</a> 
+            </p>
+        </div>
+    </form>
+    
+    <script src="signup.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

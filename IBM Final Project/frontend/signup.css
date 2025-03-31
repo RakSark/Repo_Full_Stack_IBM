@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url('./image/film\ posters\ for\ wall.jpg');
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10;
+    color: white;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+#NameRegister{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+
+.bluroverlayer{
+    position: fixed;
+    top: -50px;
+    left: -50px;
+    width: calc(100% + 100px);
+    height: calc(100% + 100px);
+    background: inherit;
+    filter: blur(5px) brightness(30%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+#LogoBox{
+    width: auto;
+    height: auto;
+    z-index: 5;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+#LogoBox>img{
+    width: 380px;
+    height: 140px;
+    filter: contrast(200%);
+}
+
+
+form {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+    /* height: 100%; */
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 5;
+}
+
+input {
+    width: 85%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(90deg,rgba(243, 0, 0, 0.61) 0%, rgb(216, 81, 81) 50%, rgb(0, 45, 243) 100%);
+    background-size: 300% 100%;
+    background-position: 100% 0%;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s ease-in;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+input:hover{
+    background-position: 0% 100%;
+}
+input:focus{
+    background: linear-gradient(90deg,rgba(243, 0, 0, 0.61) 0%, rgb(216, 81, 81) 50%, rgb(0, 45, 243) 100%);
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgba(5, 197, 37, 0.363) 32%, rgba(255, 255, 255, 0.582) 50%, rgba(231, 39, 39, 0.637) 100%);
+    background-size: 300% 100%;
+    background-position: 100% 0%;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: 0.3s; */
+    margin-top: 100px;
+    transition: all 0.3s ease-in;
+}
+
+.password-container{
+    position: relative;
+}
+
+.toggle-ico{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    translate: -50%;
+    width: auto;
+    height: auto;
+}
+.toggle-ico>img{
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    -webkit-user-drag: none;
+    filter: invert();
+}
+
+button:hover {
+    background-position: 0% 100%;
+}
+
